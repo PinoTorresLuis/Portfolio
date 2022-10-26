@@ -1,0 +1,163 @@
+.container-svg {
+    grid-area: portada;
+  }
+
+.container-svg {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+    #name-svg{
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 65rem;
+        margin: 0 auto;
+    }
+
+}
+
+.path0 {
+    stroke-width: 3px;
+    stroke: rgb(255, 255, 255);
+}
+
+.path1 {
+    stroke-width: 3px;
+    stroke:#00C2CB;
+}
+.path2 {
+    stroke-width: 3px;
+    stroke: rgb(255, 255, 255);
+}
+
+.path3 {
+    stroke-width: 3px;
+    stroke: rgb(255, 255, 255);
+}
+.path4 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+}
+.path5 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+}
+.path6 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+}
+.path7 {
+    stroke-width: 3px;
+    stroke: #ffff;
+}
+.path8 {
+    stroke-width: 3px;
+    stroke:#00C2CB;
+}
+.path9 {
+    stroke-width: 3px;
+    stroke: rgb(231, 209, 209);
+}
+.path10 {
+    stroke-width: 3px;
+    stroke:#00C2CB;
+}
+.path11 {
+    stroke-width: 3px;
+    stroke: #ffff;
+}
+.path12 {
+    stroke-width: 3px;
+    stroke:#00C2CB;
+}
+.path13 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+ 
+}
+
+.path14 {
+    stroke-width: 3px;
+    stroke: #ffff;
+ 
+}
+
+.path15 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+ 
+}
+.path16 {
+    stroke-width: 3px;
+    stroke: #ffff;
+ 
+}
+.path17 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+}
+.path18 {
+    stroke-width: 3px;
+    stroke: #ffff;
+ 
+}
+.path19 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+ 
+}
+.path20 {
+    stroke-width: 3px;
+    stroke: #00C2CB;
+ 
+}
+.path21 {
+    stroke-width: 3px;
+    stroke: #ffff;
+}
+.path22 {
+    stroke-width: 3px;
+    stroke:#00C2CB;
+}
+.path23 {
+    stroke-width: 3px;
+    stroke:#00C2CB;
+}
+.path24 {
+    stroke-width: 3px;
+    stroke: #ffff;
+}
+
+// .path0:hover {
+//     filter: drop-shadow(0px 1px 5px #fafafa);    
+// } 
+
+
+@media (max-width:975px){
+.container-svg {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    margin: 0 auto;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+    #name-svg{
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+}}
