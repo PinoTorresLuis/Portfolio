@@ -1,6 +1,5 @@
 import React from 'react';
 import img from '../../media/My project-1.png';
-import {motion} from "framer-motion";
 
 import './about.scss';
 
@@ -8,14 +7,12 @@ const About = () => {
   return (
     <div className='about_container'>
       <div className='about_me'>
-        <motion.div
-        initial = {{x:"-200vw"}}
-        animate = {{x:"0", transition:{duration:1,ease:"easeInOut"}}}>
+        <div data-aos="fade-right">
           <h1 className='title_about'>Let me tell you something about me</h1>
           <p className='subtitle_about'>I am a web developer with excellent comunication skills. I love collaborationg and working as a team, I am looking for a full time position in web development where I can apply my knowledge and skills to continue improving</p>
-        </motion.div> 
+        </div> 
       </div>  
-        <div className="about_img">
+        <div className="about_img" data-aos="fade-left" >
               <img className='img_about' src= {img} alt='about'></img>
         </div>
         <div className='wave_container'>

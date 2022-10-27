@@ -7,8 +7,8 @@ import './skills.scss';
 const Skills = () => {
   return (
     <div className='skill_container'>
-        <h1 className='title_skill'>SKILLS</h1>
-            <ul className='skill-item'>
+        <h1 className='title_skill' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">SKILLS</h1>
+            <ul className='skill-item' data-aos="fade-up" data-aos-duration="3000">
                 <li className='item_li'><FontAwesomeIcon icon= {faHtml5} className ='skill_icon' />HTML5</li>
                 <li className='item_li'><FontAwesomeIcon icon= {faCss3Alt} className ='skill_icon'/>CSS</li>
                 <li className='item_li'><FontAwesomeIcon icon= {faJs} className ='skill_icon'/>JavaScript</li>

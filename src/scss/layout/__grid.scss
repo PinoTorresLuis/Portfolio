@@ -4,27 +4,27 @@ grid-container > * {
 .grid-container {
     display:grid;
     width: 100%;
-    height: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns:repeat(3,1fr) ;
     grid-auto-rows: auto;
     grid-template-areas: 
-    "navbar   navbar"
-    "portada  portada"
-    "about    about"
-    "skills   skills"
-    "proyect  proyect"
-    "footer   footer";
+    "navbar   navbar  navbar"
+    "portada  portada portada"
+    "about    about   about"
+    "skills   skills  skills"
+    "proyect  proyect proyect"
+    "footer   footer  footer";
 }
 
 
 
 @media (max-width:976px){
     .grid-container {
-    grid-template-columns:minmax(250px,auto);
-    grid-template-areas: 
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: minmax(250px,1fr);
+    grid-template: 
     "navbar  navbar"
     "portada portada"
     "about   about"
@@ -35,16 +35,3 @@ grid-container > * {
 
 }
 
-@media (max-width:476px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-        grid-template: 
-        "navbar"
-        "portada"
-        "about"
-        "skills"
-        "proyect"
-        "footer";
-    }
-
-}

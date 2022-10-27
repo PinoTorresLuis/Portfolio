@@ -25,7 +25,7 @@
 
 .path0 {
     stroke-width: 3px;
-    stroke: rgb(255, 255, 255);
+    stroke: #ffff;
 }
 
 .path1 {
@@ -34,12 +34,12 @@
 }
 .path2 {
     stroke-width: 3px;
-    stroke: rgb(255, 255, 255);
+    stroke: #ffff;
 }
 
 .path3 {
     stroke-width: 3px;
-    stroke: rgb(255, 255, 255);
+    stroke: #ffff;
 }
 .path4 {
     stroke-width: 3px;
@@ -63,7 +63,7 @@
 }
 .path9 {
     stroke-width: 3px;
-    stroke: rgb(231, 209, 209);
+    stroke: #ffff;
 }
 .path10 {
     stroke-width: 3px;
@@ -161,3 +161,14 @@
     }
 
 }}
+
+@media (max-width:476px){
+    .container-svg {
+        height: 65vh;
+    
+        #name-svg{
+            width: 30rem;
+            margin: 0 auto;
+        }
+    
+    }}

@@ -87,8 +87,7 @@
             margin-top: 0.625rem;
             margin-bottom: 1.875rem;
     
-            .img_about {
-                
+            .img_about {    
                 width: 25rem;
                 height: 25rem;
             }
@@ -105,11 +104,8 @@
             padding: 0 100px 0 100px;
             flex-direction: column;
             margin: 20px 0px 20px 0px;
-            align-items: center;
-            justify-content: center;
-
+            
             .title_about{ 
-                margin-bottom: 30px;
                 font-size: 1.75rem;
                 
             }
@@ -117,15 +113,8 @@
         }
     
         .about_img {
-            width: 100%;
-            background-color: white;
-            margin-top: 10px;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-    
             .img_about {
-                width: 40vh;
+                width:60%;
             }
         }
     }
