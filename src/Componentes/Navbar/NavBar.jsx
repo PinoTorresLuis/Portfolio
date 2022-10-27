@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from '../../media/logo.png'
+import logo from '../../media/Logo.png';
 import "./navbar.scss";
 
 const Navbar = ({isScrolling}) => {
@@ -14,10 +14,10 @@ const Navbar = ({isScrolling}) => {
       <div className="Navbar1">
       <span className="nav-logo"> <img className="img_logo" src= {logo}/></span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/service">Proyect</a>
-        <a href="/contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#proyects">Proyect</a>
+        <a href="#contact">Contact</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

@@ -87,7 +87,9 @@
             background-color: white;
             margin-top: 0.625rem;
             margin-bottom: 1.875rem;
-    
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             .img_about {    
                 width: 25rem;
                 height: 25rem;
@@ -114,7 +116,7 @@
     
         .about_img {
             .img_about {
-                width:60%;
+                width:70%;
             }
         }
     }

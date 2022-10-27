@@ -4,7 +4,7 @@ import './proyects.scss';
 const Proyects = () => {
   return (
     <div className='proyects_container'>
-        <h1 className='title_proyect' data-aos="zoom-in">Proyects</h1>
+        <h1 className='title_proyect' data-aos="zoom-in"><a name="proyects">Proyects</a></h1>
         <div className="container__cards">
           <div className="card" data-aos="fade-rigth" >
               <div className="cover__card">

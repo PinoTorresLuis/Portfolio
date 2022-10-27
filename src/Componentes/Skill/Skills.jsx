@@ -6,7 +6,7 @@ import './skills.scss';
 
 const Skills = () => {
   return (
-    <div className='skill_container'>
+    <div className='skill_container'><a name="skills"></a>
         <h1 className='title_skill' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">SKILLS</h1>
             <ul className='skill-item' data-aos="fade-up" data-aos-duration="3000">
                 <li className='item_li'><FontAwesomeIcon icon= {faHtml5} className ='skill_icon' />HTML5</li>
