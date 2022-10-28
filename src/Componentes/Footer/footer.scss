@@ -25,15 +25,19 @@
     
     .download-cv {
         border: none;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         color: white;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
         background-color:#00C2CB;
         font-size: 2rem;
-        padding: 10px 20px;
-        border-radius: 10px;
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.625rem;
         box-shadow: 1px 3px 11px -5px rgb(102, 231, 200, .69);
         cursor: pointer;
     }
+
     i {
         padding: 10px;
         font-size: 1.5rem;
@@ -41,10 +45,13 @@
         
     }
     .logo {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         font-size: 3rem;
-        padding: 10px;
+        padding: 0.625rem;
         color: #00C2CB;
+        z-index: 2;
+        overflow: hidden;
+        position: relative;
     }
     }
     hr {
@@ -72,8 +79,23 @@
 
 }
   
-.download-cv:hover {
-    background-color: whitesmoke;
 }
+.download-cv::after {
+    content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transition: .4s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+
+.download-cv:hover::after {
+	transform: scale(500);
+	background: #089fa7;
 }
 

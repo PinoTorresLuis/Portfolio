@@ -17,7 +17,7 @@ const Footer = () => {
   
   return (
     <div className="contact_container">
-        <h1>Contact Me</h1>
+        <h1><a name="contact">Contact Me</a></h1>
 
         <div className='download_container'>
           <button className='download-cv' onClick={handleShow}>
